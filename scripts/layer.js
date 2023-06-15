@@ -30,7 +30,7 @@ exports.createText = function( layer, text, x, y, fill, size ){
 	return layer.text(x, y, text).attr({
 		fill: fill || "#fff",
 		"font-size": size || "14px",
-		"font-family": "黑体",
+		"font-family": "black body",
 		"text-anchor": "start"
 	});
 };
